@@ -8,9 +8,8 @@ print "Your current position is " + str(current_position)
 
 command = raw_input("What do you want to do? ")
 if command == 'f':
-    next_position = current_position+1
-    current_position=next_position
-    print "Your current position is " + str(current_position)
+	current_position =+ 1
+	print "Your current position is " + str(current_position)
 
 print "The End"
 print "Copyright 2017"
