@@ -12,4 +12,5 @@ if command == 'f':
     current_position=next_position
     print "Your current position is " + str(current_position)
 
-print "The End."
+print "The End"
+print "Copyright 2017"
